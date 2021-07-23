@@ -496,888 +496,222 @@ public class PaneruController : MonoBehaviour
         Rkesil = 0;
     }
 
+    //ボタン処理
+    void Buttonsyori(int x,int y)
+    {
+        if (this.isJyuujikesiButton == true)
+        {
+            Jyuujikesi(x, y);
+            this.isJyuujikesiButton = false;
+        }
+        else if (this.isKurosukesiButton == true)
+        {
+            Kurosukesi(x, y);
+            this.isKurosukesiButton = false;
+        }
+        else if (this.isRasenkesiButton == true)
+        {
+            Rasenkesi(x, y);
+            this.isRasenkesiButton = false;
+        }
+    }
+
     //Button00を押したら消し方に応じた(0,0)中心の処理をする
     public void GetButton00Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(0, 0);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(0, 0);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(0, 0);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(0, 0);
     }
     public void GetButton01Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(0, 1);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(0, 1);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(0, 1);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(0, 1);
     }
     public void GetButton02Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(0, 2);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(0, 2);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(0, 2);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(0, 2);
     }
     public void GetButton03Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(0, 3);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(0, 3);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(0, 3);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(0, 3);
     }
     public void GetButton04Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(0, 4);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(0, 4);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(0, 4);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(0, 4);
     }
     public void GetButton05Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(0, 5);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(0, 5);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(0, 5);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(0, 5);
     }
     public void GetButton06Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(0, 6);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(0, 6);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(0, 6);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(0, 6);
     }
     public void GetButton10Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(1, 0);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(1, 0);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(1, 0);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(1, 0);
     }
     public void GetButton11Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(1, 1);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(1, 1);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(1, 1);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(1, 1);
     }
     public void GetButton12Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(1, 2);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(1, 2);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(1, 2);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(1, 2);
     }
     public void GetButton13Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(1, 3);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(1, 3);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(1, 3);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(1, 3);
     }
     public void GetButton14Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(1, 4);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(1, 4);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(1, 4);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(1, 4);
     }
     public void GetButton15Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(1, 5);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(1, 5);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(1, 5);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(1, 5);
     }
     public void GetButton16Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(1, 6);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(1, 6);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(1, 6);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(1, 6);
     }
     public void GetButton20Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(2, 0);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(2, 0);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(2, 0);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(2, 0);
     }
     public void GetButton21Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(2, 1);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(2, 1);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(2, 1);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(2, 1);
     }
     public void GetButton22Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(2, 2);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(2, 2);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(2, 2);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(2, 2);
     }
     public void GetButton23Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(2, 3);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(2, 3);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(2, 3);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(2, 3);
     }
     public void GetButton24Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(2, 4);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(2, 4);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(2, 4);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(2, 4);
     }
     public void GetButton25Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(2, 5);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(2, 5);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(2, 5);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(2, 5);
     }
     public void GetButton26Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(2, 6);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(2, 6);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(2, 6);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(2, 6);
     }
     public void GetButton30Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(3, 0);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(3, 0);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(3, 0);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(3, 0);
     }
     public void GetButton31Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(3, 1);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(3, 1);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(3, 1);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(3, 1);
     }
     public void GetButton32Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(3, 2);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(3, 2);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(3, 2);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(3, 2);
     }
     public void GetButton33Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(3, 3);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(3, 3);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(3, 3);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(3, 3);
     }
     public void GetButton34Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(3, 4);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(3, 4);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(3, 4);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(3, 4);
     }
     public void GetButton35Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(3, 5);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(3, 5);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(3, 5);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(3, 5);
     }
     public void GetButton36Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(3, 6);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(3, 6);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(3, 6);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(3, 6);
     }
     public void GetButton40Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(4, 0);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(4, 0);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(4, 0);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(4, 0);
     }
     public void GetButton41Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(4, 1);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(4, 1);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(4, 1);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(4, 1);
     }
     public void GetButton42Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(4, 2);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(4, 2);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(4, 2);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(4, 2);
     }
     public void GetButton43Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(4, 3);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(4, 3);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(4, 3);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(4, 3);
     }
     public void GetButton44Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(4, 4);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(4, 4);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(4, 4);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(4, 4);
     }
     public void GetButton45Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(4, 5);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(4, 5);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(4, 5);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(4, 5);
     }
     public void GetButton46Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(4, 6);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(4, 6);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(4, 6);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(4, 6);
     }
     public void GetButton50Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(5, 0);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(5, 0);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(5, 0);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(5, 0);
     }
     public void GetButton51Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(5, 1);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(5, 1);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(5, 1);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(5, 1);
     }
     public void GetButton52Down()
     {
-        if (this.isJyuujikesiButton == true)
-        { 
-            Jyuujikesi(5, 2);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(5, 2);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(5, 2);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(5, 2);
     }
     public void GetButton53Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(5, 3);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(5, 3);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(5, 3);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(5, 3);
     }
     public void GetButton54Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(5, 4);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(5, 4);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(5, 4);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(5, 4);
     }
     public void GetButton55Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(5, 5);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(5, 5);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(5, 5);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(5, 5);
     }
     public void GetButton56Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(5, 6);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(5, 6);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(5, 6);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(5, 6);
     }
     public void GetButton60Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(6, 0);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(6, 0);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(6, 0);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(6, 0);
     }
     public void GetButton61Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(6, 1);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(6, 1);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(6, 1);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(6, 1);
     }
     public void GetButton62Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(6, 2);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(6, 2);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(6, 2);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(6, 2);
     }
     public void GetButton63Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(6, 3);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(6, 3);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(6, 3);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(6, 3);
     }
     public void GetButton64Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(6, 4);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(6, 4);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(6, 4);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(6, 4);
     }
     public void GetButton65Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(6, 5);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(6, 5);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(6, 5);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(6, 5);
     }
     public void GetButton66Down()
     {
-        if (this.isJyuujikesiButton == true)
-        {
-            Jyuujikesi(6, 6);
-            this.isJyuujikesiButton = false;
-        }
-        else if (this.isKurosukesiButton == true)
-        {
-            Kurosukesi(6, 6);
-            this.isKurosukesiButton = false;
-        }
-        else if (this.isRasenkesiButton == true)
-        {
-            Rasenkesi(6, 6);
-            this.isRasenkesiButton = false;
-        }
+        Buttonsyori(6, 6);
     }
 
     //ボタンの色変更
