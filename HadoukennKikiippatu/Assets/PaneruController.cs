@@ -11,11 +11,29 @@ public class PaneruController : MonoBehaviour
     int Panerusum = 0;
 
     //十字消し
-    int[,] jyuuji = new int[,] { { 0, 0, 1, 0, 0 }, { 0, 0, 1, 0, 0 }, { 1, 1, 1, 1, 1 }, { 0, 0, 1, 0, 0 }, { 0, 0, 1, 0, 0 } };
+    int[,] jyuuji = new int[,] { 
+        { 0, 0, 1, 0, 0 }, 
+        { 0, 0, 1, 0, 0 }, 
+        { 1, 1, 1, 1, 1 }, 
+        { 0, 0, 1, 0, 0 }, 
+        { 0, 0, 1, 0, 0 } 
+    };
     //クロス消し
-    int[,] kurosu = new int[,] { { 1, 0, 0, 0, 1 }, { 0, 1, 0, 1, 0 }, { 0, 0, 1, 0, 0 }, { 0, 1, 0, 1, 0 }, { 1, 0, 0, 0, 1 } };
+    int[,] kurosu = new int[,] { 
+        { 1, 0, 0, 0, 1 }, 
+        { 0, 1, 0, 1, 0 }, 
+        { 0, 0, 1, 0, 0 }, 
+        { 0, 1, 0, 1, 0 }, 
+        { 1, 0, 0, 0, 1 } 
+    };
     //螺旋消し
-    int[,] rasen = new int[,] { { 1, 1, 0, 0, 1 }, { 0, 0, 0, 0, 1 }, { 0, 0, 1, 0, 0 }, { 1, 0, 0, 0, 0 }, { 1, 0, 0, 1, 1 } };
+    int[,] rasen = new int[,] { 
+        { 1, 1, 0, 0, 1 }, 
+        { 0, 0, 0, 0, 1 }, 
+        { 0, 0, 1, 0, 0 }, 
+        { 1, 0, 0, 0, 0 }, 
+        { 1, 0, 0, 1, 1 } 
+    };
 
     //問題作成用配列
     int[,] toi = new int[5, 5];
@@ -38,55 +56,7 @@ public class PaneruController : MonoBehaviour
     private bool isRasenkesiButton = false;
 
     //ボタンのオブジェクト
-    GameObject Button00;
-    GameObject Button01;
-    GameObject Button02;
-    GameObject Button03;
-    GameObject Button04;
-    GameObject Button05;
-    GameObject Button06;
-    GameObject Button10;
-    GameObject Button11;
-    GameObject Button12;
-    GameObject Button13;
-    GameObject Button14;
-    GameObject Button15;
-    GameObject Button16;
-    GameObject Button20;
-    GameObject Button21;
-    GameObject Button22;
-    GameObject Button23;
-    GameObject Button24;
-    GameObject Button25;
-    GameObject Button26;
-    GameObject Button30;
-    GameObject Button31;
-    GameObject Button32;
-    GameObject Button33;
-    GameObject Button34;
-    GameObject Button35;
-    GameObject Button36;
-    GameObject Button40;
-    GameObject Button41;
-    GameObject Button42;
-    GameObject Button43;
-    GameObject Button44;
-    GameObject Button45;
-    GameObject Button46;
-    GameObject Button50;
-    GameObject Button51;
-    GameObject Button52;
-    GameObject Button53;
-    GameObject Button54;
-    GameObject Button55;
-    GameObject Button56;
-    GameObject Button60;
-    GameObject Button61;
-    GameObject Button62;
-    GameObject Button63;
-    GameObject Button64;
-    GameObject Button65;
-    GameObject Button66;
+    GameObject[,] Buttons = new GameObject[7, 7];
     GameObject JyuujikesiButton;
     GameObject KurosukesiButton;
     GameObject RasenkesiButton;
@@ -107,55 +77,14 @@ public class PaneruController : MonoBehaviour
         }
 
         //ボタンのオブジェクトを取り込む
-        Button00 = GameObject.Find("Button00");
-        Button01 = GameObject.Find("Button01");
-        Button02 = GameObject.Find("Button02");
-        Button03 = GameObject.Find("Button03");
-        Button04 = GameObject.Find("Button04");
-        Button05 = GameObject.Find("Button05");
-        Button06 = GameObject.Find("Button06");
-        Button10 = GameObject.Find("Button10");
-        Button11 = GameObject.Find("Button11");
-        Button12 = GameObject.Find("Button12");
-        Button13 = GameObject.Find("Button13");
-        Button14 = GameObject.Find("Button14");
-        Button15 = GameObject.Find("Button15");
-        Button16 = GameObject.Find("Button16");
-        Button20 = GameObject.Find("Button20");
-        Button21 = GameObject.Find("Button21");
-        Button22 = GameObject.Find("Button22");
-        Button23 = GameObject.Find("Button23");
-        Button24 = GameObject.Find("Button24");
-        Button25 = GameObject.Find("Button25");
-        Button26 = GameObject.Find("Button26");
-        Button30 = GameObject.Find("Button30");
-        Button31 = GameObject.Find("Button31");
-        Button32 = GameObject.Find("Button32");
-        Button33 = GameObject.Find("Button33");
-        Button34 = GameObject.Find("Button34");
-        Button35 = GameObject.Find("Button35");
-        Button36 = GameObject.Find("Button36");
-        Button40 = GameObject.Find("Button40");
-        Button41 = GameObject.Find("Button41");
-        Button42 = GameObject.Find("Button42");
-        Button43 = GameObject.Find("Button43");
-        Button44 = GameObject.Find("Button44");
-        Button45 = GameObject.Find("Button45");
-        Button46 = GameObject.Find("Button46");
-        Button50 = GameObject.Find("Button50");
-        Button51 = GameObject.Find("Button51");
-        Button52 = GameObject.Find("Button52");
-        Button53 = GameObject.Find("Button53");
-        Button54 = GameObject.Find("Button54");
-        Button55 = GameObject.Find("Button55");
-        Button56 = GameObject.Find("Button56");
-        Button60 = GameObject.Find("Button60");
-        Button61 = GameObject.Find("Button61");
-        Button62 = GameObject.Find("Button62");
-        Button63 = GameObject.Find("Button63");
-        Button64 = GameObject.Find("Button64");
-        Button65 = GameObject.Find("Button65");
-        Button66 = GameObject.Find("Button66");
+        for(int y = 0; y<7; y++ )
+        {
+            for(int x = 0; x<7; x++)
+            {
+                Buttons[x, y] = GameObject.Find("Button" + x + y);
+            }
+
+        }
         JyuujikesiButton = GameObject.Find("JyuujikesiButton");
         KurosukesiButton = GameObject.Find("KurosukesiButton");
         RasenkesiButton = GameObject.Find("RasenkesiButton");
@@ -180,55 +109,14 @@ public class PaneruController : MonoBehaviour
 
 
         //ボタンの色を更新する
-        ColorChange(Button00, Paneru[0, 0]);
-        ColorChange(Button01, Paneru[0, 1]);
-        ColorChange(Button02, Paneru[0, 2]);
-        ColorChange(Button03, Paneru[0, 3]);
-        ColorChange(Button04, Paneru[0, 4]);
-        ColorChange(Button05, Paneru[0, 5]);
-        ColorChange(Button06, Paneru[0, 6]);
-        ColorChange(Button10, Paneru[1, 0]);
-        ColorChange(Button11, Paneru[1, 1]);
-        ColorChange(Button12, Paneru[1, 2]);
-        ColorChange(Button13, Paneru[1, 3]);
-        ColorChange(Button14, Paneru[1, 4]);
-        ColorChange(Button15, Paneru[1, 5]);
-        ColorChange(Button16, Paneru[1, 6]);
-        ColorChange(Button20, Paneru[2, 0]);
-        ColorChange(Button21, Paneru[2, 1]);
-        ColorChange(Button22, Paneru[2, 2]);
-        ColorChange(Button23, Paneru[2, 3]);
-        ColorChange(Button24, Paneru[2, 4]);
-        ColorChange(Button25, Paneru[2, 5]);
-        ColorChange(Button26, Paneru[2, 6]);
-        ColorChange(Button30, Paneru[3, 0]);
-        ColorChange(Button31, Paneru[3, 1]);
-        ColorChange(Button32, Paneru[3, 2]);
-        ColorChange(Button33, Paneru[3, 3]);
-        ColorChange(Button34, Paneru[3, 4]);
-        ColorChange(Button35, Paneru[3, 5]);
-        ColorChange(Button36, Paneru[3, 6]);
-        ColorChange(Button40, Paneru[4, 0]);
-        ColorChange(Button41, Paneru[4, 1]);
-        ColorChange(Button42, Paneru[4, 2]);
-        ColorChange(Button43, Paneru[4, 3]);
-        ColorChange(Button44, Paneru[4, 4]);
-        ColorChange(Button45, Paneru[4, 5]);
-        ColorChange(Button46, Paneru[4, 6]);
-        ColorChange(Button50, Paneru[5, 0]);
-        ColorChange(Button51, Paneru[5, 1]);
-        ColorChange(Button52, Paneru[5, 2]);
-        ColorChange(Button53, Paneru[5, 3]);
-        ColorChange(Button54, Paneru[5, 4]);
-        ColorChange(Button55, Paneru[5, 5]);
-        ColorChange(Button56, Paneru[5, 6]);
-        ColorChange(Button60, Paneru[6, 0]);
-        ColorChange(Button61, Paneru[6, 1]);
-        ColorChange(Button62, Paneru[6, 2]);
-        ColorChange(Button63, Paneru[6, 3]);
-        ColorChange(Button64, Paneru[6, 4]);
-        ColorChange(Button65, Paneru[6, 5]);
-        ColorChange(Button66, Paneru[6, 6]);
+        for (int y = 0; y < 7; y++)
+        {
+            for (int x = 0; x < 7; x++)
+            {
+                ColorChange(Buttons[x,y], Paneru[x,y]);
+            }
+
+        }
         KesikataColorChange(JyuujikesiButton, isJyuujikesiButton);
         KesikataColorChange(KurosukesiButton, isKurosukesiButton);
         KesikataColorChange(RasenkesiButton, isRasenkesiButton);
@@ -271,8 +159,8 @@ public class PaneruController : MonoBehaviour
                 if (0 <= Tasii && Tasii <= 6 && 0 <= Tasij && Tasij <= 6)
                 {
                     Paneru[Tasii, Tasij] += toi[Tasik, Tasil];
-                    Tasik++;
                 }
+                Tasik++;
             }
             Tasik = 0;
             Tasil++;
@@ -315,7 +203,7 @@ public class PaneruController : MonoBehaviour
             {
                 Toisakuseikurosu(Setx);
             }
-            else
+            else if (toikata ==3)
             {
                 Toisakuseirasen(Setx);
             }
@@ -550,9 +438,9 @@ public class PaneruController : MonoBehaviour
                     if (Paneru[Jkesii, Jkesij] > 0)
                     {
                         Paneru[Jkesii, Jkesij] -= jyuuji[Jkesik, Jkesil];
-                        Jkesik++;
                     }
                 }
+                Jkesik++;
             }
             Jkesik = 0;
             Jkesil++;
@@ -574,9 +462,9 @@ public class PaneruController : MonoBehaviour
                     if (Paneru[Kkesii, Kkesij] > 0)
                     {
                         Paneru[Kkesii, Kkesij] -= kurosu[Kkesik, Kkesil];
-                        Kkesik++;
                     }
                 }
+                Kkesik++;
             }
             Kkesik = 0;
             Kkesil++;
@@ -598,9 +486,9 @@ public class PaneruController : MonoBehaviour
                     if (Paneru[Rkesii, Rkesij] > 0)
                     {
                         Paneru[Rkesii, Rkesij] -= rasen[Rkesik, Rkesil];
-                        Rkesik++;
                     }
                 }
+                Rkesik++;
             }
             Rkesik = 0;
             Rkesil++;
