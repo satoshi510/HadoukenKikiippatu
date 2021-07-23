@@ -98,7 +98,6 @@ public class PaneruController : MonoBehaviour
         }
 
 
-
     }
 
     // Update is called once per frame
@@ -145,7 +144,7 @@ public class PaneruController : MonoBehaviour
         this.isRasenkesiButton = true;
     }
 
-    //5x5‘«‚µŽZ
+    //5x5toi‘«‚µŽZ
     void Toitasizann(int Tasix, int Tasiy)
     {
 
@@ -160,10 +159,10 @@ public class PaneruController : MonoBehaviour
                 {
                     Paneru[Tasii, Tasij] += toi[Tasik, Tasil];
                 }
-                Tasik++;
+                Tasil++;
             }
-            Tasik = 0;
-            Tasil++;
+            Tasil = 0;
+            Tasik++;
         }
         Tasik = 0;
         Tasil = 0;
@@ -440,10 +439,10 @@ public class PaneruController : MonoBehaviour
                         Paneru[Jkesii, Jkesij] -= jyuuji[Jkesik, Jkesil];
                     }
                 }
-                Jkesik++;
+                Jkesil++;
             }
-            Jkesik = 0;
-            Jkesil++;
+            Jkesil = 0;
+            Jkesik++;
         }
         Jkesik = 0;
         Jkesil = 0;
@@ -464,10 +463,10 @@ public class PaneruController : MonoBehaviour
                         Paneru[Kkesii, Kkesij] -= kurosu[Kkesik, Kkesil];
                     }
                 }
-                Kkesik++;
+                Kkesil++;
             }
-            Kkesik = 0;
-            Kkesil++;
+            Kkesil = 0;
+            Kkesik++;
         }
         Kkesik = 0;
         Kkesil = 0;
@@ -488,10 +487,10 @@ public class PaneruController : MonoBehaviour
                         Paneru[Rkesii, Rkesij] -= rasen[Rkesik, Rkesil];
                     }
                 }
-                Rkesik++;
+                Rkesil++;
             }
-            Rkesik = 0;
-            Rkesil++;
+            Rkesil = 0;
+            Rkesik++;
         }
         Rkesik = 0;
         Rkesil = 0;
