@@ -39,6 +39,11 @@ public class PaneruController : MonoBehaviour
     int[,] toi = new int[5, 5];
     //問題難易度初期化
     int toihard = 3;
+    //操作回数
+    int kaisuu = 0;
+
+    //何問目
+    int toikazu = 0;
 
     //十字消しボタンの判定
     private bool isJyuujikesiButton = false;
@@ -53,6 +58,8 @@ public class PaneruController : MonoBehaviour
     GameObject KurosukesiButton;
     GameObject RasenkesiButton;
 
+    //何問目かの表示テキスト
+    GameObject toikazuText;
 
 
 
@@ -64,7 +71,7 @@ public class PaneruController : MonoBehaviour
         {
             for (int j = 0; j < Paneru.GetLength(1); j++)
             {
-                Paneru[i, j] = 1;
+                Paneru[i, j] = 0;
             }
         }
 
@@ -80,23 +87,37 @@ public class PaneruController : MonoBehaviour
         JyuujikesiButton = GameObject.Find("JyuujikesiButton");
         KurosukesiButton = GameObject.Find("KurosukesiButton");
         RasenkesiButton = GameObject.Find("RasenkesiButton");
-
-
-        //難易度分の回数問題を足す （問題作成最終処理）
-        for (int t=0; t< toihard; t++)
-        {
-            Toisakusei();
-        }
-
+        //何問目を表示するテキストを取り込む
+        this.toikazuText = GameObject.Find("toikazuText");
 
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        //難易度分の回数問題を足す （問題作成最終処理）
+        if (Panerusum == 0)
+        {
+            toikazu++;
+            for (int t = 0; t < toihard; t++)
+            {
+                Toisakusei();
+            }
+        }
         //パネルの合計を初期化
         Panerusum = 0;
+        //パネルの合計を計算
+        for (int y = 0; y<7; y++)
+        {
+            for(int x = 0; x<7; x++)
+            {
+                Panerusum += Paneru[x, y]; 
+            }
+        }
 
+        //今の問題数の表示を更新する
+        this.toikazuText.GetComponent<Text>().text = toikazu + "問目";
 
         //パネルの色を更新する
         for (int y = 0; y < 7; y++)
