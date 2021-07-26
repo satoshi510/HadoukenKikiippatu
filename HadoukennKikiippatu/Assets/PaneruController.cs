@@ -41,6 +41,8 @@ public class PaneruController : MonoBehaviour
     int toihard = 1;
     //残り操作回数
     int nokorikaisuu = 0;
+    //得点
+    int score = 0;
 
     //何問目
     int toikazu = 0;
@@ -62,6 +64,8 @@ public class PaneruController : MonoBehaviour
     GameObject toikazuText;
     //残り回数の表示テキスト
     GameObject nokorikaisuuText;
+    //得点の表示テキスト
+    GameObject scoreText;
 
 
 
@@ -87,54 +91,59 @@ public class PaneruController : MonoBehaviour
         this.toikazuText = GameObject.Find("toikazuText");
         //残り回数を表示するテキストを取り込む
         this.nokorikaisuuText = GameObject.Find("nokorikaisuuText");
+        //得点を表示するテキストを取り込む
+        this.scoreText = GameObject.Find("ScoreText");
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        //パネルの合計を計算
-        Panerugoukei();
+            //パネルの合計を計算
+            Panerugoukei();
+            //正解した時
+            if (Panerusum == 0)
+            {
+                //点数加算
+                score += (toihard - 1) * (toihard - 1) * 10;
+                //次の問題に進む
+                toikazu++;
+                //難易度上昇
+                if (toihard < 7)
+                {
+                    toihard++;
+                }
+                for (int t = 0; t < toihard; t++)
+                {
+                    Toisakusei();
+                }
+                nokorikaisuu = toihard;
 
-        //正解した時
-        if (Panerusum == 0)
-        {
-            toikazu++;
-            //難易度上昇
-            if (toihard < 7)
-            {
-                toihard++;
             }
-            for (int t = 0; t < toihard; t++)
+            //残り回数が先に0になった時(間違ったとき)
+            else if (nokorikaisuu == 0)
             {
-                Toisakusei();
+                Panerusyokika();
+                //難易度低下
+                if (toihard > 2)
+                {
+                    toihard--;
+                }
+                for (int t = 0; t < toihard; t++)
+                {
+                    Toisakusei();
+                }
+                nokorikaisuu = toihard;
             }
-            nokorikaisuu = toihard;
-
-        }
-        //残り回数が先に0になった時(間違ったとき)
-        else if (nokorikaisuu == 0)
-        {
-            Panerusyokika();
-            //難易度低下
-            if (toihard > 2)
-            {
-                toihard--;
-            }
-            for (int t = 0; t < toihard; t++)
-            {
-                Toisakusei();
-            }
-            nokorikaisuu = toihard;
-        }
-
-        //パネルの合計を計算
-        Panerugoukei();
+            //パネルの合計を計算
+            Panerugoukei();
 
         //今の問題数の表示を更新する
         this.toikazuText.GetComponent<Text>().text = toikazu + "問目";
         //今の残り回数の表示を更新する
         this.nokorikaisuuText.GetComponent<Text>().text = "残り" + nokorikaisuu + "回";
+        //今の得点の表示を更新する
+        this.scoreText.GetComponent<Text>().text = score + "点";
 
         //パネルの色を更新する
         for (int y = 0; y < 7; y++)
@@ -208,8 +217,8 @@ public class PaneruController : MonoBehaviour
         int toiretu = Random.Range(1, Paneru.GetLength(1)-1);
         //問題作成パターン3種類
         int toikata = Random.Range(1, 4);
-        //問題マス数 (3～5マス)
-        int toisum = Random.Range(3, 6);
+        //問題マス数 (4～6マス)
+        int toisum = Random.Range(4, 7);
         //現状のtoiのマスの合計の計算用
         int toisumnow = 0;
         //toi初期化
