@@ -39,8 +39,8 @@ public class PaneruController : MonoBehaviour
     int[,] toi = new int[5, 5];
     //問題難易度初期化
     int toihard = 3;
-    //操作回数
-    int kaisuu = 0;
+    //残り操作回数
+    int nokorikaisuu = 0;
 
     //何問目
     int toikazu = 0;
@@ -60,6 +60,8 @@ public class PaneruController : MonoBehaviour
 
     //何問目かの表示テキスト
     GameObject toikazuText;
+    //残り回数の表示テキスト
+    GameObject nokorikaisuuText;
 
 
 
@@ -67,13 +69,7 @@ public class PaneruController : MonoBehaviour
     void Start()
     {
         //パネルの初期化
-        for (int i = 0; i < Paneru.GetLength(0); i++)
-        {
-            for (int j = 0; j < Paneru.GetLength(1); j++)
-            {
-                Paneru[i, j] = 0;
-            }
-        }
+        Panerusyokika();
 
         //ボタンのオブジェクトを取り込む
         for(int y = 0; y<7; y++ )
@@ -89,14 +85,18 @@ public class PaneruController : MonoBehaviour
         RasenkesiButton = GameObject.Find("RasenkesiButton");
         //何問目を表示するテキストを取り込む
         this.toikazuText = GameObject.Find("toikazuText");
+        //残り回数を表示するテキストを取り込む
+        this.nokorikaisuuText = GameObject.Find("nokorikaisuuText");
 
     }
 
     // Update is called once per frame
     void Update()
     {
+        //パネルの合計を計算
+        Panerugoukei();
 
-        //難易度分の回数問題を足す （問題作成最終処理）
+        //正解した時
         if (Panerusum == 0)
         {
             toikazu++;
@@ -104,20 +104,27 @@ public class PaneruController : MonoBehaviour
             {
                 Toisakusei();
             }
+            nokorikaisuu = toihard;
+
         }
-        //パネルの合計を初期化
-        Panerusum = 0;
-        //パネルの合計を計算
-        for (int y = 0; y<7; y++)
+        //残り回数が先に0になった時(間違ったとき)
+        else if (nokorikaisuu == 0)
         {
-            for(int x = 0; x<7; x++)
+            Panerusyokika();
+            for (int t = 0; t < toihard; t++)
             {
-                Panerusum += Paneru[x, y]; 
+                Toisakusei();
             }
+            nokorikaisuu = toihard;
         }
+
+        //パネルの合計を計算
+        Panerugoukei();
 
         //今の問題数の表示を更新する
         this.toikazuText.GetComponent<Text>().text = toikazu + "問目";
+        //今の残り回数の表示を更新する
+        this.nokorikaisuuText.GetComponent<Text>().text = "残り" + nokorikaisuu + "回";
 
         //パネルの色を更新する
         for (int y = 0; y < 7; y++)
@@ -153,6 +160,33 @@ public class PaneruController : MonoBehaviour
         this.isJyuujikesiButton = false;
         this.isKurosukesiButton = false;
         this.isRasenkesiButton = true;
+    }
+
+    //パネルの初期化
+    void Panerusyokika()
+    {
+        for (int i = 0; i < Paneru.GetLength(0); i++)
+        {
+            for (int j = 0; j < Paneru.GetLength(1); j++)
+            {
+                Paneru[i, j] = 0;
+            }
+        }
+    }
+
+    //パネルの合計を計算
+    void Panerugoukei()
+    {
+        //パネルの合計を初期化
+        Panerusum = 0;
+        //パネルの合計を計算
+        for (int y = 0; y < 7; y++)
+        {
+            for (int x = 0; x < 7; x++)
+            {
+                Panerusum += Paneru[x, y];
+            }
+        }
     }
 
     //問題作成1セット
@@ -462,16 +496,19 @@ public class PaneruController : MonoBehaviour
         {
             Kesi(x, y,jyuuji);
             this.isJyuujikesiButton = false;
+            nokorikaisuu--;
         }
         else if (this.isKurosukesiButton == true)
         {
             Kesi(x, y, kurosu);
             this.isKurosukesiButton = false;
+            nokorikaisuu--;
         }
         else if (this.isRasenkesiButton == true)
         {
             Kesi(x, y, rasen);
             this.isRasenkesiButton = false;
+            nokorikaisuu--;
         }
     }
 
