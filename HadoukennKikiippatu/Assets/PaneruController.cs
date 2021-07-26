@@ -38,7 +38,7 @@ public class PaneruController : MonoBehaviour
     //問題作成用配列
     int[,] toi = new int[5, 5];
     //問題難易度初期化
-    int toihard = 3;
+    int toihard = 1;
     //残り操作回数
     int nokorikaisuu = 0;
 
@@ -100,6 +100,11 @@ public class PaneruController : MonoBehaviour
         if (Panerusum == 0)
         {
             toikazu++;
+            //難易度上昇
+            if (toihard < 7)
+            {
+                toihard++;
+            }
             for (int t = 0; t < toihard; t++)
             {
                 Toisakusei();
@@ -111,6 +116,11 @@ public class PaneruController : MonoBehaviour
         else if (nokorikaisuu == 0)
         {
             Panerusyokika();
+            //難易度低下
+            if (toihard > 2)
+            {
+                toihard--;
+            }
             for (int t = 0; t < toihard; t++)
             {
                 Toisakusei();
@@ -617,19 +627,35 @@ public class PaneruController : MonoBehaviour
     {
         if(colorx==0)
         {
-            color.GetComponent<Image>().color = Color.white;
+            color.GetComponent<Image>().color = new Color32(255,255,255,255);
         }
         if (colorx == 1)
         {
-            color.GetComponent<Image>().color = Color.red;
+            color.GetComponent<Image>().color = new Color32(255,0,0,255);
         }
         if (colorx == 2)
         {
-            color.GetComponent<Image>().color = Color.yellow;
+            color.GetComponent<Image>().color = new Color32(255,127,0,255);
         }
         if (colorx == 3)
         {
-            color.GetComponent<Image>().color = Color.green;
+            color.GetComponent<Image>().color = new Color32 (255,255,0,255);
+        }
+        if (colorx == 4)
+        {
+            color.GetComponent<Image>().color = new Color32(0, 255, 0, 255);
+        }
+        if (colorx == 5)
+        {
+            color.GetComponent<Image>().color = new Color32(0, 255, 255,255);
+        }
+        if (colorx == 6)
+        {
+            color.GetComponent<Image>().color = new Color32(0, 0, 255, 255);
+        }
+        if (colorx == 7)
+        {
+            color.GetComponent<Image>().color = new Color32(128, 0, 255, 255);
         }
 
     }
