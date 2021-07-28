@@ -38,14 +38,23 @@ public class PaneruController : MonoBehaviour
     //問題作成用配列
     int[,] toi = new int[5, 5];
     //問題難易度初期化
-    int toihard = 1;
+    int toihard = 0;
     //残り操作回数
     int nokorikaisuu = 0;
     //得点
     int score = 0;
 
+    //問題数
+    int monndaisuu = 3;
     //何問目
     int toikazu = 0;
+
+    //経過時間
+    float second = 0f;
+    int minite = 0;
+
+    //難易度変更条件（時間）
+    float hardtime = 0f;
 
     //十字消しボタンの判定
     private bool isJyuujikesiButton = false;
@@ -66,6 +75,10 @@ public class PaneruController : MonoBehaviour
     GameObject nokorikaisuuText;
     //得点の表示テキスト
     GameObject scoreText;
+    //残り時間の表示テキスト
+    GameObject timeText;
+    //メインカメラ
+    GameObject MainCamera;
 
 
 
@@ -84,34 +97,46 @@ public class PaneruController : MonoBehaviour
             }
 
         }
-        JyuujikesiButton = GameObject.Find("JyuujikesiButton");
-        KurosukesiButton = GameObject.Find("KurosukesiButton");
-        RasenkesiButton = GameObject.Find("RasenkesiButton");
+        JyuujikesiButton = GameObject.Find("JyuujikesiButtonBlock");
+        KurosukesiButton = GameObject.Find("KurosukesiButtonBlock");
+        RasenkesiButton = GameObject.Find("RasenkesiButtonBlock");
         //何問目を表示するテキストを取り込む
         this.toikazuText = GameObject.Find("toikazuText");
         //残り回数を表示するテキストを取り込む
         this.nokorikaisuuText = GameObject.Find("nokorikaisuuText");
         //得点を表示するテキストを取り込む
         this.scoreText = GameObject.Find("ScoreText");
+        //残り時間を表示するテキストを取り込む
+        this.timeText = GameObject.Find("TimeText");
+        //メインカメラを取り込む
+        this.MainCamera = GameObject.Find("Main Camera");
 
     }
 
     // Update is called once per frame
     void Update()
     {
-            //パネルの合計を計算
-            Panerugoukei();
+        //難易度変更用経過時間計算
+        hardtime += Time.deltaTime;
+        //パネルの合計を計算
+        Panerugoukei();
+        if (toikazu <= monndaisuu)
+        {
             //正解した時
             if (Panerusum == 0)
             {
-                //点数加算
-                score += (toihard - 1) * (toihard - 1) * 10;
                 //次の問題に進む
                 toikazu++;
+                //点数加算
+                score += toihard * toihard * 10;
+
                 //難易度上昇
-                if (toihard < 7)
+                if (hardtime < (toihard * 3) || toihard ==0)
                 {
-                    toihard++;
+                    if (toihard < 7)
+                    {
+                        toihard++;
+                    }
                 }
                 for (int t = 0; t < toihard; t++)
                 {
@@ -125,7 +150,7 @@ public class PaneruController : MonoBehaviour
             {
                 Panerusyokika();
                 //難易度低下
-                if (toihard > 2)
+                if (toihard > 1)
                 {
                     toihard--;
                 }
@@ -135,8 +160,25 @@ public class PaneruController : MonoBehaviour
                 }
                 nokorikaisuu = toihard;
             }
-            //パネルの合計を計算
-            Panerugoukei();
+        }
+        //パネルの合計を計算
+        Panerugoukei();
+
+        //残り時間を計測する
+        second += Time.deltaTime;
+        if(second > 60f)
+        {
+            minite++;
+            second -= 60;
+        }
+        //制限時間4分
+        this.timeText.GetComponent<Text>().text = (3 - minite) + ":" + (60 - second).ToString("f2");
+
+        //最後の問題を終えたら
+        if ( toikazu > monndaisuu || minite == 4)
+        {
+            Debug.Log("w");
+        }
 
         //今の問題数の表示を更新する
         this.toikazuText.GetComponent<Text>().text = toikazu + "問目";
@@ -273,6 +315,9 @@ public class PaneruController : MonoBehaviour
             Tasil = 0;
             Tasik++;
         }
+
+        //難易度変更用経過時間リセット
+        hardtime = 0;
     }
 
     //問作成十字
@@ -666,18 +711,18 @@ public class PaneruController : MonoBehaviour
         {
             color.GetComponent<Image>().color = new Color32(128, 0, 255, 255);
         }
-
     }
-    //消し方ボタンの色変更
-    void KesikataColorChange(GameObject color, bool colorx)
+
+        //消し方ボタンの色変更
+        void KesikataColorChange(GameObject color, bool colorx)
     {
         if(colorx == true)
         {
-            color.GetComponent<Image>().color = Color.red;
+            color.GetComponent<SpriteRenderer>().color = Color.red;
         }
         else if(colorx == false)
         {
-            color.GetComponent<Image>().color = Color.white;
+            color.GetComponent<SpriteRenderer>().color = Color.white;
         }
     }
 }
