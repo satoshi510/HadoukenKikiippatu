@@ -35,7 +35,7 @@ public class ButtonController : MonoBehaviour
         
     }
 
-    public void ChangeInteractabe()
+    public void ChangeInteractable()
     {
         //ŽžŠÔŒv‘ªŠJŽn
         timer = 0;

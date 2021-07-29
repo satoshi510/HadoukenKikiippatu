@@ -131,12 +131,12 @@ public class PaneruController : MonoBehaviour
             {
                 for (int x = 0; x<7; x++)
                 {
-                    GameObject.Find("Button" + y + x).GetComponent<ButtonController>().ChangeInteractabe();
+                    GameObject.Find("Button" + y + x).GetComponent<ButtonController>().ChangeInteractable();
                 }
             }
         }
 
-        if (gamestop == false && gamestoptime>1)
+        if (gamestop == false && gamestoptime>1) //ゲームストップtrueと同時にtrueにならないようにtime条件
         {
             //難易度変更用経過時間計算
             hardtime += Time.deltaTime;
@@ -152,7 +152,7 @@ public class PaneruController : MonoBehaviour
                     score += nokorikaisuu * 300;
 
                     //難易度上昇
-                    if (hardtime < (toihard * 3) || toihard == 0)
+                    if (hardtime < (toihard * 3+2) || toihard == 0)
                     {
                         if (toihard < 7)
                         {
@@ -197,9 +197,18 @@ public class PaneruController : MonoBehaviour
         this.timeText.GetComponent<Text>().text = (4 - minite) + ":" + (60 - second).ToString("f2");
 
         //最後の問題を終えたら
-        if ( (toikazu >= monndaisuu && Panerusum ==0) || minite == 5)
+        if ( (toikazu >= monndaisuu && Panerusum ==0))
         {
-            Debug.Log("w");
+            //最後の問題の点数を足す
+            score += toihard * toihard * 10;
+            score += nokorikaisuu * 300;
+            GameObject.Find("FinishController").GetComponent<FinishController>().Clear(score);
+        }
+        //ゲームオーバー
+        else if (minite >= 5)
+        {
+            GameObject.Find("FinishController").GetComponent<FinishController>().GameOver(score);
+
         }
 
         //今の問題数の表示を更新する
