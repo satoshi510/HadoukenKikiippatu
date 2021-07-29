@@ -6,12 +6,12 @@ using UnityEngine.UI;
 public class PaneruController : MonoBehaviour
 {
     //今のパネルの状態
-    int[,] Paneru = new int[7,7];
+    private int[,] Paneru = new int[7,7];
     //パネルの合計
-    int Panerusum = 0;
+    private int Panerusum = 0;
 
     //十字消し
-    int[,] jyuuji = new int[,] { 
+    private int[,] jyuuji = new int[,] { 
         { 0, 0, 1, 0, 0 }, 
         { 0, 0, 1, 0, 0 }, 
         { 1, 1, 1, 1, 1 }, 
@@ -19,7 +19,7 @@ public class PaneruController : MonoBehaviour
         { 0, 0, 1, 0, 0 } 
     };
     //クロス消し
-    int[,] kurosu = new int[,] { 
+    private int[,] kurosu = new int[,] { 
         { 1, 0, 0, 0, 1 }, 
         { 0, 1, 0, 1, 0 }, 
         { 0, 0, 1, 0, 0 }, 
@@ -27,7 +27,7 @@ public class PaneruController : MonoBehaviour
         { 1, 0, 0, 0, 1 } 
     };
     //螺旋消し
-    int[,] rasen = new int[,] { 
+    private int[,] rasen = new int[,] { 
         { 1, 1, 0, 0, 1 }, 
         { 0, 0, 0, 0, 1 }, 
         { 0, 0, 1, 0, 0 }, 
@@ -36,25 +36,30 @@ public class PaneruController : MonoBehaviour
     };
 
     //問題作成用配列
-    int[,] toi = new int[5, 5];
+    private int[,] toi = new int[5, 5];
     //問題難易度初期化
-    int toihard = 0;
+    private int toihard = 0;
     //残り操作回数
-    int nokorikaisuu = 0;
+    private int nokorikaisuu = 0;
     //得点
-    int score = 0;
+    private int score = 0;
 
     //問題数
-    int monndaisuu = 3;
+    private int monndaisuu = 3;
     //何問目
-    int toikazu = 0;
+    private int toikazu = 0;
 
     //経過時間
-    float second = 0f;
-    int minite = 0;
+    private float second = 0f;
+    private int minite = 0;
 
     //難易度変更条件（時間）
-    float hardtime = 0f;
+    private float hardtime = 0f;
+
+    //ゲーム停止判定
+    public bool gamestop = false;
+    //ゲーム停止時間 (1回目のgamestop = falseを避ける用の2.2)
+    private float gamestoptime = 2.2f;
 
     //十字消しボタンの判定
     private bool isJyuujikesiButton = false;
@@ -77,8 +82,6 @@ public class PaneruController : MonoBehaviour
     GameObject scoreText;
     //残り時間の表示テキスト
     GameObject timeText;
-    //メインカメラ
-    GameObject MainCamera;
 
 
 
@@ -108,57 +111,76 @@ public class PaneruController : MonoBehaviour
         this.scoreText = GameObject.Find("ScoreText");
         //残り時間を表示するテキストを取り込む
         this.timeText = GameObject.Find("TimeText");
-        //メインカメラを取り込む
-        this.MainCamera = GameObject.Find("Main Camera");
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        //難易度変更用経過時間計算
-        hardtime += Time.deltaTime;
+        //ゲーム停止時間計測
+        gamestoptime += Time.deltaTime; 
         //パネルの合計を計算
         Panerugoukei();
-        if (toikazu <= monndaisuu)
+        //ゲームストップ
+        if((Panerusum ==0 || nokorikaisuu <= 0 )&& toihard !=0 &&gamestop == false && gamestoptime >2.2f)
         {
-            //正解した時
-            if (Panerusum == 0)
+            gamestop = true;
+            gamestoptime = 0;
+
+            for(int y =0; y<7; y++)
             {
-                //次の問題に進む
-                toikazu++;
-                //点数加算
-                score += toihard * toihard * 10;
-
-                //難易度上昇
-                if (hardtime < (toihard * 3) || toihard ==0)
+                for (int x = 0; x<7; x++)
                 {
-                    if (toihard < 7)
-                    {
-                        toihard++;
-                    }
+                    GameObject.Find("Button" + y + x).GetComponent<ButtonController>().ChangeInteractabe();
                 }
-                for (int t = 0; t < toihard; t++)
-                {
-                    Toisakusei();
-                }
-                nokorikaisuu = toihard;
-
             }
-            //残り回数が先に0になった時(間違ったとき)
-            else if (nokorikaisuu == 0)
+        }
+
+        if (gamestop == false && gamestoptime>1)
+        {
+            //難易度変更用経過時間計算
+            hardtime += Time.deltaTime;
+            if (toikazu <= monndaisuu)
             {
-                Panerusyokika();
-                //難易度低下
-                if (toihard > 1)
+                //正解した時
+                if (Panerusum == 0)
                 {
-                    toihard--;
+                    //次の問題に進む
+                    toikazu++;
+                    //点数加算
+                    score += toihard * toihard * 10;
+                    score += nokorikaisuu * 300;
+
+                    //難易度上昇
+                    if (hardtime < (toihard * 3) || toihard == 0)
+                    {
+                        if (toihard < 7)
+                        {
+                            toihard++;
+                        }
+                    }
+                    for (int t = 0; t < toihard; t++)
+                    {
+                        Toisakusei();
+                    }
+                    nokorikaisuu = toihard;
+
                 }
-                for (int t = 0; t < toihard; t++)
+                //残り回数が先に0になった時(間違ったとき)
+                else if (nokorikaisuu <= 0)
                 {
-                    Toisakusei();
+                    Panerusyokika();
+                    //難易度低下
+                    if (toihard > 1)
+                    {
+                        toihard--;
+                    }
+                    for (int t = 0; t < toihard; t++)
+                    {
+                        Toisakusei();
+                    }
+                    nokorikaisuu = toihard;
                 }
-                nokorikaisuu = toihard;
             }
         }
         //パネルの合計を計算
@@ -171,11 +193,11 @@ public class PaneruController : MonoBehaviour
             minite++;
             second -= 60;
         }
-        //制限時間4分
-        this.timeText.GetComponent<Text>().text = (3 - minite) + ":" + (60 - second).ToString("f2");
+        //制限時間5分
+        this.timeText.GetComponent<Text>().text = (4 - minite) + ":" + (60 - second).ToString("f2");
 
         //最後の問題を終えたら
-        if ( toikazu > monndaisuu || minite == 4)
+        if ( (toikazu >= monndaisuu && Panerusum ==0) || minite == 5)
         {
             Debug.Log("w");
         }
@@ -221,6 +243,12 @@ public class PaneruController : MonoBehaviour
         this.isJyuujikesiButton = false;
         this.isKurosukesiButton = false;
         this.isRasenkesiButton = true;
+    }
+
+    //ゲームストップをやめる関数(ButtonControllerから呼び出す用)
+    public void SetGamestopfalse()
+    {
+        gamestop = false;
     }
 
     //パネルの初期化

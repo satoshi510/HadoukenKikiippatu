@@ -364,7 +364,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 32716250}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton23Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &32716250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -412,26 +424,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 32716247}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton23Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &36476783
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,7 +439,7 @@ GameObject:
   - component: {fileID: 36476787}
   - component: {fileID: 36476786}
   - component: {fileID: 36476785}
-  - component: {fileID: 36476788}
+  - component: {fileID: 36476789}
   m_Layer: 5
   m_Name: Button00
   m_TagString: Untagged
@@ -515,7 +510,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 36476786}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton00Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &36476786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -554,7 +561,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36476783}
   m_CullTransparentMesh: 1
---- !u!114 &36476788
+--- !u!114 &36476789
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -563,26 +570,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 36476783}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton00Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &44886969
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,7 +656,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 44886972}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton04Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &44886972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,26 +716,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 44886969}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton04Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &57373720
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,7 +802,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 57373723}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton40Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &57373723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -865,26 +862,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 57373720}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton40Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &89939182
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,7 +948,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 89939185}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton42Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &89939185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1016,26 +1008,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 89939182}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton42Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &98360271
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,7 +1252,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 194407777}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton46Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &194407777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1325,26 +1312,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 194407774}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton46Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &197050153
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,7 +1327,7 @@ GameObject:
   - component: {fileID: 197050157}
   - component: {fileID: 197050156}
   - component: {fileID: 197050155}
-  - component: {fileID: 197050158}
+  - component: {fileID: 197050159}
   m_Layer: 5
   m_Name: Button02
   m_TagString: Untagged
@@ -1428,7 +1398,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 197050156}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton02Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &197050156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1467,7 +1449,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 197050153}
   m_CullTransparentMesh: 1
---- !u!114 &197050158
+--- !u!114 &197050159
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1476,26 +1458,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 197050153}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton02Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &204217429
 GameObject:
   m_ObjectHideFlags: 0
@@ -1579,7 +1544,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 204217432}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton06Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &204217432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1627,26 +1604,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 204217429}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton06Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &217706868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1730,7 +1690,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 217706871}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton12Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &217706871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1778,26 +1750,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 217706868}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton12Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &230629729
 GameObject:
   m_ObjectHideFlags: 0
@@ -1993,7 +1948,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 283189948}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton14Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &283189948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2041,26 +2008,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 283189945}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton14Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &287081638
 GameObject:
   m_ObjectHideFlags: 0
@@ -2223,7 +2173,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 292893455}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton20Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &292893455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2271,26 +2233,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 292893452}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton20Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &304806640
 GameObject:
   m_ObjectHideFlags: 0
@@ -2878,7 +2823,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 412178690}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton45Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &412178690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2926,26 +2883,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 412178687}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton45Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &427068594
 GameObject:
   m_ObjectHideFlags: 0
@@ -3259,7 +3199,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 499053164}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton22Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &499053164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3307,26 +3259,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 499053161}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton22Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3610,7 +3545,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 563275482}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton36Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &563275482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3658,26 +3605,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 563275479}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton36Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &586418209
 GameObject:
   m_ObjectHideFlags: 0
@@ -3761,7 +3691,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 586418212}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton52Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &586418212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3809,26 +3751,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 586418209}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton52Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &592625889
 GameObject:
   m_ObjectHideFlags: 0
@@ -3991,7 +3916,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 614942316}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton43Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &614942316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4039,26 +3976,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 614942313}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton43Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &662943434
 GameObject:
   m_ObjectHideFlags: 0
@@ -4142,7 +4062,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 662943437}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton66Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &662943437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4190,26 +4122,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 662943434}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton66Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &671017388
 GameObject:
   m_ObjectHideFlags: 0
@@ -4530,7 +4445,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 751089242}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton15Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &751089242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4578,26 +4505,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 751089239}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton15Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &762415482
 GameObject:
   m_ObjectHideFlags: 0
@@ -4681,7 +4591,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 762415485}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton10Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &762415485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4729,26 +4651,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 762415482}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton10Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &810349555
 GameObject:
   m_ObjectHideFlags: 0
@@ -4983,7 +4888,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 824692562}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton05Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &824692562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5031,26 +4948,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 824692559}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton05Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &825588464
 GameObject:
   m_ObjectHideFlags: 0
@@ -5295,7 +5195,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 857735720}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton32Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &857735720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5343,26 +5255,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 857735717}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton32Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &865947278
 GameObject:
   m_ObjectHideFlags: 0
@@ -5446,7 +5341,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 865947281}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton03Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &865947281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5494,26 +5401,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 865947278}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton03Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &883309078
 GameObject:
   m_ObjectHideFlags: 0
@@ -5676,7 +5566,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 895387922}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton55Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &895387922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5724,26 +5626,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 895387919}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton55Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &915070108
 GameObject:
   m_ObjectHideFlags: 0
@@ -5827,7 +5712,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 915070111}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton60Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &915070111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5875,26 +5772,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 915070108}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton60Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &928584810
 GameObject:
   m_ObjectHideFlags: 0
@@ -6360,7 +6240,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1040658092}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton50Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1040658092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6408,26 +6300,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1040658089}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton50Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1045219539
 GameObject:
   m_ObjectHideFlags: 0
@@ -6511,7 +6386,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1045219542}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton24Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1045219542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6559,26 +6446,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1045219539}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton24Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1062607291
 GameObject:
   m_ObjectHideFlags: 0
@@ -6820,7 +6690,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1083789240}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton25Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1083789240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6868,26 +6750,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1083789237}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton25Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1085109530
 GameObject:
   m_ObjectHideFlags: 0
@@ -7369,7 +7234,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1235125843}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton56Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1235125843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7417,26 +7294,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1235125840}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton56Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1260957392
 GameObject:
   m_ObjectHideFlags: 0
@@ -7757,7 +7617,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1344060217}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton62Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1344060217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7805,26 +7677,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1344060214}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton62Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1345154819
 GameObject:
   m_ObjectHideFlags: 0
@@ -7987,7 +7842,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1357283872}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton35Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1357283872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8035,26 +7902,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1357283869}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton35Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1362415254
 GameObject:
   m_ObjectHideFlags: 0
@@ -8138,7 +7988,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1362415257}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton61Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1362415257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8186,26 +8048,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1362415254}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton61Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1367659207
 GameObject:
   m_ObjectHideFlags: 0
@@ -8289,7 +8134,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1367659210}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton13Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1367659210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8337,26 +8194,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1367659207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton13Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1387762113
 GameObject:
   m_ObjectHideFlags: 0
@@ -8440,7 +8280,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1387762116}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton26Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1387762116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8488,26 +8340,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1387762113}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton26Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1409209858
 GameObject:
   m_ObjectHideFlags: 0
@@ -8655,8 +8490,8 @@ Canvas:
   m_GameObject: {fileID: 1437034345}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -8665,7 +8500,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1437034349
 RectTransform:
@@ -8958,6 +8793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b6614f2028f9ee418341888bbac4bd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gamestop: 0
 --- !u!4 &1513333581
 Transform:
   m_ObjectHideFlags: 0
@@ -9055,7 +8891,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1562153399}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton51Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1562153399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9103,26 +8951,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1562153396}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton51Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1585133886
 GameObject:
   m_ObjectHideFlags: 0
@@ -9206,7 +9037,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1585133889}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton41Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1585133889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9254,26 +9097,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1585133886}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton41Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1587492667
 GameObject:
   m_ObjectHideFlags: 0
@@ -9357,7 +9183,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1587492670}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton53Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1587492670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9405,26 +9243,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1587492667}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton53Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1587528841
 GameObject:
   m_ObjectHideFlags: 0
@@ -9508,7 +9329,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1587528844}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton16Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1587528844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9556,26 +9389,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1587528841}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton16Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1606722423
 GameObject:
   m_ObjectHideFlags: 0
@@ -9659,7 +9475,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1606722426}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton34Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1606722426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9707,26 +9535,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1606722423}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton34Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1675995292
 GameObject:
   m_ObjectHideFlags: 0
@@ -9968,7 +9779,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1695451608}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton11Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1695451608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10016,26 +9839,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1695451605}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton11Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1703573385
 GameObject:
   m_ObjectHideFlags: 0
@@ -10119,7 +9925,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1703573388}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton21Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1703573388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10167,26 +9985,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1703573385}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton21Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1716671948
 GameObject:
   m_ObjectHideFlags: 0
@@ -10270,7 +10071,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1716671951}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton63Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1716671951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10318,26 +10131,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1716671948}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton63Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1731537741
 GameObject:
   m_ObjectHideFlags: 0
@@ -10500,7 +10296,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1736450814}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton31Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1736450814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10548,26 +10356,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1736450811}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton31Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1742852204
 GameObject:
   m_ObjectHideFlags: 0
@@ -10888,7 +10679,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1766728850}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton33Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1766728850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10936,26 +10739,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1766728847}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton33Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1767083757
 GameObject:
   m_ObjectHideFlags: 0
@@ -11039,7 +10825,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1767083760}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton54Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1767083760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11087,26 +10885,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1767083757}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton54Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1779311972
 GameObject:
   m_ObjectHideFlags: 0
@@ -11190,7 +10971,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1779311975}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton44Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1779311975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11238,26 +11031,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1779311972}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton44Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1796641657
 GameObject:
   m_ObjectHideFlags: 0
@@ -11349,7 +11125,7 @@ GameObject:
   - component: {fileID: 1797665945}
   - component: {fileID: 1797665944}
   - component: {fileID: 1797665943}
-  - component: {fileID: 1797665946}
+  - component: {fileID: 1797665947}
   m_Layer: 5
   m_Name: Button01
   m_TagString: Untagged
@@ -11420,7 +11196,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1797665944}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton01Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1797665944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11459,7 +11247,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1797665941}
   m_CullTransparentMesh: 1
---- !u!114 &1797665946
+--- !u!114 &1797665947
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11468,26 +11256,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1797665941}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton01Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1831986316
 GameObject:
   m_ObjectHideFlags: 0
@@ -11890,7 +11661,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1867454783}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton64Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1867454783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11938,26 +11721,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1867454780}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton64Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1912599334
 GameObject:
   m_ObjectHideFlags: 0
@@ -12120,7 +11886,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1929412689}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton30Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1929412689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12168,26 +11946,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1929412686}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton30Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1949266985
 GameObject:
   m_ObjectHideFlags: 0
@@ -12271,7 +12032,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1949266988}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1513333580}
+        m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
+        m_MethodName: GetButton65Down
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1949266988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12319,26 +12092,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1949266985}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 86e85b6546f748b45bd94a59e572d7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1513333580}
-          m_TargetAssemblyTypeName: PaneruController, Assembly-CSharp
-          m_MethodName: GetButton65Down
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1954502445
 GameObject:
   m_ObjectHideFlags: 0
@@ -13138,3 +12894,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2118473052}
   m_CullTransparentMesh: 1
+--- !u!1001 &4405467138519482310
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1848610234413727685, guid: 85ca8da22d19490448c9438050c4f9ed, type: 3}
+      propertyPath: m_Name
+      value: Particle System
+      objectReference: {fileID: 0}
+    - target: {fileID: 2047252901816742995, guid: 85ca8da22d19490448c9438050c4f9ed, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2047252901816742995, guid: 85ca8da22d19490448c9438050c4f9ed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -242.62738
+      objectReference: {fileID: 0}
+    - target: {fileID: 2047252901816742995, guid: 85ca8da22d19490448c9438050c4f9ed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 705.9381
+      objectReference: {fileID: 0}
+    - target: {fileID: 2047252901816742995, guid: 85ca8da22d19490448c9438050c4f9ed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -197.76225
+      objectReference: {fileID: 0}
+    - target: {fileID: 2047252901816742995, guid: 85ca8da22d19490448c9438050c4f9ed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2047252901816742995, guid: 85ca8da22d19490448c9438050c4f9ed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2047252901816742995, guid: 85ca8da22d19490448c9438050c4f9ed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2047252901816742995, guid: 85ca8da22d19490448c9438050c4f9ed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2047252901816742995, guid: 85ca8da22d19490448c9438050c4f9ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2047252901816742995, guid: 85ca8da22d19490448c9438050c4f9ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2047252901816742995, guid: 85ca8da22d19490448c9438050c4f9ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 85ca8da22d19490448c9438050c4f9ed, type: 3}
