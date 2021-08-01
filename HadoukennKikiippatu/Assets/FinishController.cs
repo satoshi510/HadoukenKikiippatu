@@ -24,6 +24,7 @@ public class FinishController : MonoBehaviour
     GameObject PaneruButtons;
     GameObject PlayTexts;
     GameObject ButtonBlocks;
+    GameObject PaneruController;
     GameObject ClearScoreText;
     GameObject ClearTimeText;
     GameObject ScoreSumText;
@@ -39,6 +40,7 @@ public class FinishController : MonoBehaviour
         PaneruButtons = GameObject.Find("PaneruButtons");
         PlayTexts = GameObject.Find("PlayTexts");
         ButtonBlocks = GameObject.Find("ButtonBlocks");
+        PaneruController = GameObject.Find("PaneruController");
 
         //クリア時表示するテキストを取り込む
         ClearScoreText = GameObject.Find("ClearScoreText");
@@ -99,6 +101,7 @@ public class FinishController : MonoBehaviour
         Destroy(PaneruButtons);
         Destroy(PlayTexts);
         Destroy(ButtonBlocks);
+        Destroy(PaneruController);
 
         //クリア後のテキストをアクティブ化
         ClearScoreText.SetActive(true);
@@ -121,6 +124,7 @@ public class FinishController : MonoBehaviour
         Destroy(PaneruButtons);
         Destroy(PlayTexts);
         Destroy(ButtonBlocks);
+        Destroy(PaneruController);
 
         //クリア後のテキストをアクティブ化
         ClearScoreText.SetActive(true);

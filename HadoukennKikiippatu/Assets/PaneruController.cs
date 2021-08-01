@@ -45,7 +45,7 @@ public class PaneruController : MonoBehaviour
     private int score = 0;
 
     //–â‘è”
-    private int monndaisuu = 3;
+    private int monndaisuu = 12;
     //‰½–â–Ú
     private int toikazu = 0;
 
