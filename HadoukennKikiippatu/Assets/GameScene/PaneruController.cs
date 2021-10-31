@@ -955,11 +955,11 @@ public class PaneruController : MonoBehaviour
     {
         if(colorx == true)
         {
-            color.GetComponent<SpriteRenderer>().color = Color.black;
+            color.GetComponent<Image>().color = Color.black;
         }
         else if(colorx == false)
         {
-            color.GetComponent<SpriteRenderer>().color = Color.white;
+            color.GetComponent<Image>().color = Color.white;
         }
     }
 }

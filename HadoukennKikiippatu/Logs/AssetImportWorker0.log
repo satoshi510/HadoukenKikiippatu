@@ -2968,3 +2968,526 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005851 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.932 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2214 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.8 MB.
+System memory in use after: 197.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3010.
+Total: 2.023700 ms (FindLiveObjects: 0.188000 ms CreateObjectMapping: 0.050900 ms MarkObjects: 1.645400 ms  DeleteObjects: 0.138300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.7 MB.
+System memory in use after: 153.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3010.
+Total: 3.383300 ms (FindLiveObjects: 0.282300 ms CreateObjectMapping: 0.073000 ms MarkObjects: 2.851200 ms  DeleteObjects: 0.174700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 0 -> 1
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3600.741164 seconds.
+  path: Assets/OpeningScene/setumei1.png
+  artifactKey: Guid(6e94c80568ba8704eace1ca51b44a1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/setumei1.png using Guid(6e94c80568ba8704eace1ca51b44a1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1ece37c940ecaa627a3ffbbb05fc48') in 0.079122 seconds 
+  Import took 0.086672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/OpeningScene/setumei4.png
+  artifactKey: Guid(d4c096069e5400f4086a57e45dc24863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/setumei4.png using Guid(d4c096069e5400f4086a57e45dc24863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848812fbf7f2e22733f8f1f09c9528dc') in 0.024713 seconds 
+  Import took 0.030752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/OpeningScene/setumei11.png
+  artifactKey: Guid(31bf5f2f039a39544a6ee81e7ce717f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/setumei11.png using Guid(31bf5f2f039a39544a6ee81e7ce717f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7658c885a4e599771878a6a00bf17da5') in 0.020691 seconds 
+  Import took 0.027496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000606 seconds.
+  path: Assets/OpeningScene/setumei12.png
+  artifactKey: Guid(d79454da235c2e54a93efec7de402e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/setumei12.png using Guid(d79454da235c2e54a93efec7de402e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e057d3da68643098507a126e57c2745e') in 0.017777 seconds 
+  Import took 0.023162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/OpeningScene/setumei5.png
+  artifactKey: Guid(f9cce0f173aed134187d10fe155023f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/setumei5.png using Guid(f9cce0f173aed134187d10fe155023f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553b2b06b593fa2b8f6a90a444cacff7') in 0.017125 seconds 
+  Import took 0.021247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/OpeningScene/setumei9.png
+  artifactKey: Guid(239f8e054d03e08438e40054865a166a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/setumei9.png using Guid(239f8e054d03e08438e40054865a166a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4759e147f6a62f7a69025aed5d29af7') in 0.019792 seconds 
+  Import took 0.024496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/OpeningScene/setumei8.png
+  artifactKey: Guid(37ab309d9df737f4c88a9f0cf7c5e94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/setumei8.png using Guid(37ab309d9df737f4c88a9f0cf7c5e94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef06a3c095d47eb958f42875692e7ec3') in 0.014280 seconds 
+  Import took 0.017951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/OpeningScene/setumei3.png
+  artifactKey: Guid(7324bfd30df2f0449a5b2a7ec7cbef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/setumei3.png using Guid(7324bfd30df2f0449a5b2a7ec7cbef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4837b71a463c9a47af6d2529bbff2ab6') in 0.017165 seconds 
+  Import took 0.020544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/OpeningScene/setumei2.png
+  artifactKey: Guid(2b48be3b1d8775c44a12f0580f1337e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/setumei2.png using Guid(2b48be3b1d8775c44a12f0580f1337e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68121c9f3a15c5bce1a66c33ce559bc') in 0.015528 seconds 
+  Import took 0.019110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/OpeningScene/setumei6.png
+  artifactKey: Guid(4954d8e841b0a724e8a99205ec79a4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/setumei6.png using Guid(4954d8e841b0a724e8a99205ec79a4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b75e1f23cddbe59004f19b885ffc34') in 0.014282 seconds 
+  Import took 0.018988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/OpeningScene/setumei10.png
+  artifactKey: Guid(96974de0be916054a8603ebe93d0172a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/setumei10.png using Guid(96974de0be916054a8603ebe93d0172a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c622eaf611b387e94ef6cf1e2350bf') in 0.011800 seconds 
+  Import took 0.016591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/OpeningScene/setumei7.png
+  artifactKey: Guid(0f09598b9cac6a348965410b73f5f957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/setumei7.png using Guid(0f09598b9cac6a348965410b73f5f957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb153bd8e05671187dd7a452897a5f6') in 0.014538 seconds 
+  Import took 0.017894 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.2 MB.
+System memory in use after: 154.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3011.
+Total: 4.428200 ms (FindLiveObjects: 0.414000 ms CreateObjectMapping: 0.219700 ms MarkObjects: 3.562900 ms  DeleteObjects: 0.229600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 580.044072 seconds.
+  path: Assets/OpeningScene/NotoSansCJKjp-hinted/NotoSansCJKjp-Black.otf
+  artifactKey: Guid(6927c03118fbb8949927b56686d0f089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/NotoSansCJKjp-hinted/NotoSansCJKjp-Black.otf using Guid(6927c03118fbb8949927b56686d0f089) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture,UnityEngine.Material,int)
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture,UnityEngine.Material)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/Graphics/RenderTexture.cpp line 934]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture,UnityEngine.Material,int)
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture,UnityEngine.Material)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/Graphics/RenderTexture.cpp line 934]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture,UnityEngine.Material,int)
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture,UnityEngine.Material)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/Graphics/RenderTexture.cpp line 934]
+
+ -> (artifact id: '7c2f4f0cb5783ac55590443341bfe368') in 0.117140 seconds 
+  Import took 0.122748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/OpeningScene/NotoSansCJKjp-hinted/NotoSansCJKjp-Medium.otf
+  artifactKey: Guid(adec432fa237582499b183de285b3a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/NotoSansCJKjp-hinted/NotoSansCJKjp-Medium.otf using Guid(adec432fa237582499b183de285b3a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/Graphics/RenderTexture.cpp line 934]
+
+ -> (artifact id: '04e21c92d3dfb413620bdae7f60c3e3e') in 0.046455 seconds 
+  Import took 0.051041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/OpeningScene/NotoSansCJKjp-hinted/NotoSansCJKjp-Thin.otf
+  artifactKey: Guid(e701a289257d14b4b997bc9f604d52bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/NotoSansCJKjp-hinted/NotoSansCJKjp-Thin.otf using Guid(e701a289257d14b4b997bc9f604d52bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/Graphics/RenderTexture.cpp line 934]
+
+ -> (artifact id: '5e55e34b70436a94d7ad195d0be8573a') in 0.049050 seconds 
+  Import took 0.053386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/OpeningScene/NotoSansCJKjp-hinted/NotoSansMonoCJKjp-Bold.otf
+  artifactKey: Guid(f52980b91400be2418d40bbebebd32d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/NotoSansCJKjp-hinted/NotoSansMonoCJKjp-Bold.otf using Guid(f52980b91400be2418d40bbebebd32d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/Graphics/RenderTexture.cpp line 934]
+
+ -> (artifact id: '043408b82bd5f32bd839d9c3993b2ce0') in 0.058333 seconds 
+  Import took 0.062466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/OpeningScene/NotoSansCJKjp-hinted/NotoSansCJKjp-Light.otf
+  artifactKey: Guid(35dd475c57572e646985bfa3424550bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/NotoSansCJKjp-hinted/NotoSansCJKjp-Light.otf using Guid(35dd475c57572e646985bfa3424550bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/Graphics/RenderTexture.cpp line 934]
+
+ -> (artifact id: '5ea7ed78b8e4f8efee38f7237caa5c58') in 0.043489 seconds 
+  Import took 0.047295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/OpeningScene/NotoSansCJKjp-hinted/NotoSansCJKjp-Regular.otf
+  artifactKey: Guid(e9c8af08fc1864b49825a247a262247c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/NotoSansCJKjp-hinted/NotoSansCJKjp-Regular.otf using Guid(e9c8af08fc1864b49825a247a262247c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/Graphics/RenderTexture.cpp line 934]
+
+ -> (artifact id: '58d2140c67fa9c8e4986d11410522a8c') in 0.042277 seconds 
+  Import took 0.046214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/OpeningScene/NotoSansCJKjp-hinted
+  artifactKey: Guid(ccf8b1f455c827744b972701bab015fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/NotoSansCJKjp-hinted using Guid(ccf8b1f455c827744b972701bab015fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d5822ab4bdfb57ad0cfba8bcc25ffd') in 0.005841 seconds 
+  Import took 0.010310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/OpeningScene/NotoSansCJKjp-hinted/NotoSansCJKjp-DemiLight.otf
+  artifactKey: Guid(7b7d3fb96be29ff40a7b00318ef0e815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/NotoSansCJKjp-hinted/NotoSansCJKjp-DemiLight.otf using Guid(7b7d3fb96be29ff40a7b00318ef0e815) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/Graphics/RenderTexture.cpp line 934]
+
+ -> (artifact id: 'f330c4e58b80d6754e5df4d2bdc21ab3') in 0.046339 seconds 
+  Import took 0.051992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/OpeningScene/NotoSansCJKjp-hinted/NotoSansCJKjp-Bold.otf
+  artifactKey: Guid(858082281a961064bb358cacaf823ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/NotoSansCJKjp-hinted/NotoSansCJKjp-Bold.otf using Guid(858082281a961064bb358cacaf823ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/Graphics/RenderTexture.cpp line 934]
+
+ -> (artifact id: '4e4e76e8e0f7f3d3a31f25687a2219e9') in 0.040653 seconds 
+  Import took 0.044982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/OpeningScene/NotoSansCJKjp-hinted/NotoSansMonoCJKjp-Regular.otf
+  artifactKey: Guid(38a4f27c49828304c9b28d56f8f671a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/NotoSansCJKjp-hinted/NotoSansMonoCJKjp-Regular.otf using Guid(38a4f27c49828304c9b28d56f8f671a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/Graphics/RenderTexture.cpp line 934]
+
+ -> (artifact id: '7181d26cb7bc6d290ad92b3ad066f735') in 0.041472 seconds 
+  Import took 0.045685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.567452 seconds.
+  path: Assets/OpeningScene/NotoSansCJKjp-hinted/LICENSE_OFL.txt
+  artifactKey: Guid(40b22196af5d08d4fb95b293065fbb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpeningScene/NotoSansCJKjp-hinted/LICENSE_OFL.txt using Guid(40b22196af5d08d4fb95b293065fbb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47351fe2491a2360ac0ed05dbf35e1d7') in 0.012257 seconds 
+  Import took 0.016244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.947636 seconds.
+  path: Assets/GameScene/panti.png
+  artifactKey: Guid(9960df03b96d5f146affd6bfbb2dab4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameScene/panti.png using Guid(9960df03b96d5f146affd6bfbb2dab4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/Graphics/RenderTexture.cpp line 934]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat)
+UnityEditor.SpriteInspector:BuildPreviewTexture (int,int,UnityEngine.Sprite,UnityEngine.Material,bool)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/Graphics/RenderTexture.cpp line 934]
+
+ -> (artifact id: '229b51812f3e11dea6333b578d6f5dad') in 0.020563 seconds 
+  Import took 0.024958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 181.798737 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90850bdd9b9d25e29f158c6d1ebe184e') in 0.011404 seconds 
+  Import took 0.015581 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.8 MB.
+System memory in use after: 154.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3048.
+Total: 6.075900 ms (FindLiveObjects: 0.311400 ms CreateObjectMapping: 0.187500 ms MarkObjects: 5.322600 ms  DeleteObjects: 0.252400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008000 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.923 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2214 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.6 MB.
+System memory in use after: 198.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3052.
+Total: 3.710300 ms (FindLiveObjects: 0.407500 ms CreateObjectMapping: 0.167600 ms MarkObjects: 2.928100 ms  DeleteObjects: 0.205300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006217 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.874 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2214 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.8 MB.
+System memory in use after: 198.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3056.
+Total: 3.899300 ms (FindLiveObjects: 0.449100 ms CreateObjectMapping: 0.234600 ms MarkObjects: 3.006400 ms  DeleteObjects: 0.207300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3056.
+Total: 3.513100 ms (FindLiveObjects: 0.400600 ms CreateObjectMapping: 0.201900 ms MarkObjects: 2.684000 ms  DeleteObjects: 0.225100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
