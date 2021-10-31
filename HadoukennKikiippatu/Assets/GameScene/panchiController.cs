@@ -139,7 +139,7 @@ public class panchiController : MonoBehaviour
     public void rasenAction(int x, int y)
     {
         zahyoux = x-3;
-        zahyouy = y-3;
+        zahyouy = 3-y;
         rasen = true;
         action = true;
     }
